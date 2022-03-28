@@ -1,0 +1,23 @@
+sort1 uses: bubble sort
+
+
+How do you know?: so i sorted these both soerted and unsorted list by sort1, there is big diff in terms of the real time so i'd argue that this is the bubble sort means this a big of (n)
+
+
+
+sort2 uses: merge sort
+
+
+How do you know?: so i sorted these both soerted and unsorted list by sort2, there is berely a diff between the two lists so i'd argue that this is the merge sort means it's a (n log n )
+
+
+
+
+sort3 uses: selection sort
+
+
+How do you know?: so i sorted these both soerted and unsorted list by sort3 ,there is berely a diff between the two lists so i'd argue that this is the selection sort becuase it's higher than the merge sort means this is a (n ** 2)
+
+
+
+
