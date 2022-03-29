@@ -1,4 +1,4 @@
-# cs50 course
+# cs50
 
 #### cs50 problem sets and labs year 2022 from week 0 until week 8 becuase I still didn't finish the course
 
