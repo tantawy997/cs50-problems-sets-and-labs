@@ -1,0 +1,40 @@
+{%extends "layout.html"%} {%block title%} create an account {%endblock%} {%block
+main%}
+<form action="/register" method="post">
+  <div class="form-group">
+    <input
+      autocomplete="off"
+      autofocus
+      class="form-control mx-auto w-auto"
+      id="username"
+      name="username"
+      placeholder="Username"
+      type="text"
+    />
+  </div>
+  <div class="form-group">
+    <input
+      class="form-control mx-auto w-auto"
+      id="password"
+      name="password"
+      placeholder="Password"
+      type="password"
+    />
+  </div>
+  <div class="form-group">
+    <input
+      class="form-control mx-auto w-auto"
+      id="confirmation"
+      name="confirmation"
+      placeholder="confirmation"
+      type="password"
+    />
+  </div>
+  <div class="form-group">
+    <p style="color: maroon" ;>
+      your password must be at least 8 numbers and one capital letter
+    </p>
+  </div>
+  <button class="btn btn-primary" type="submit">Create Account</button>
+</form>
+{%endblock%}
